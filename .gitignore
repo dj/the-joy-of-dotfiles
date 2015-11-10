@@ -1,3 +1,5 @@
 *
 !.gitignore
 !.vimrc
+!.tmux.conf
+
