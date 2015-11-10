@@ -1,16 +1,18 @@
-" =============================================================================
-" The Joy of Vim
-" -----------------------------------------------------------------------------
+" `7MMF'   `7MF'`7MMF'`7MMM.     ,MMF'
+"  `MA     ,V    MM    MMMb    dPMM  
+"   VM:   ,V     MM    M YM   ,M MM  
+"    MM.  M'     MM    M  Mb  M' MM  
+"    `MM A'      MM    M  YM.P'  MM  
+"     :MM;       MM    M  `YM'   MM  
+"      VF      .JMML..JML. `'  .JMML.
+
 " Hello, and welcome to the Joy of Vim. I'm Bob Ross, and thanks for joining
 " us today. If you're joining us for the first time, let me extend a personal
 " invitation to you to install vim with your favorite package manager, and
 " write your own config file. Just be sure to keep it at `~/.vimrc`.
-" =============================================================================
-"
-"
-" =============================================================================
+
 " Plugins
-" -----------------------------------------------------------------------------
+" ======= 
 " Now, if you're going to use vim, you're going to want to use Plugins.
 " Vim is great because you can configure it or write scripts to make it your
 " own, but every now and then, you write some code that you want to share it
@@ -26,7 +28,6 @@
 " 	:PluginUpdate 
 " 	:PluginSearch 
 " 	:PluginClean 
-" =============================================================================
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
@@ -41,9 +42,8 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'Konfekt/FastFold'
 call vundle#end()
 
-" =============================================================================
 " Settings
-" =============================================================================
+" ========
 syntax enable
 " Moving with the keyboard is what vim is all about, but sometimes you want to
 " take your time and read, and scrolling just seems to come naturally.
@@ -63,8 +63,7 @@ set colorcolumn=80
 " Let's paint this column a nice lightgrey.
 highlight ColorColumn ctermbg=lightgrey guibg=lightgrey
 
-" =============================================================================
 " Key Bindings
-" =============================================================================
+" ============
 nmap <F8> :TagbarToggle<CR>
 
