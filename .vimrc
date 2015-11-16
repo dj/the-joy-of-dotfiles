@@ -41,6 +41,7 @@ Plugin 'wookiehangover/jshint.vim'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'Konfekt/FastFold'
 Plugin 'vim-scripts/greplace.vim'
+Plugin 'christoomey/vim-tmux-navigator'
 call vundle#end()
 
 " Settings
@@ -66,5 +67,5 @@ highlight ColorColumn ctermbg=lightgrey guibg=lightgrey
 
 " Key Bindings
 " ============
-nmap <F8> :TagbarToggle<CR>
+nnoremap <F8> :TagbarToggle<CR>
 
