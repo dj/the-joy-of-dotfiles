@@ -40,6 +40,7 @@ Plugin 'majutsushi/tagbar'
 Plugin 'wookiehangover/jshint.vim'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'Konfekt/FastFold'
+Plugin 'vim-scripts/greplace.vim'
 call vundle#end()
 
 " Settings
