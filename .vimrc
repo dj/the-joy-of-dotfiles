@@ -64,6 +64,9 @@ set number
 set colorcolumn=80
 " Let's paint this column a nice lightgrey.
 highlight ColorColumn ctermbg=lightgrey guibg=lightgrey
+" Now let's change how we highlight errors found by jslint.
+highlight clear SpellBad
+highlight SpellBad cterm=underline,bold ctermfg=white ctermbg=red
 
 " Key Bindings
 " ============
