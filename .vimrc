@@ -42,6 +42,7 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'Konfekt/FastFold'
 Plugin 'vim-scripts/greplace.vim'
 Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'maksimr/vim-jsbeautify'
 call vundle#end()
 
 " Settings
